@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>青年开源虚拟大学</title>
+  <link rel="stylesheet" href="https://unocss.com/unocss.min.css">
+  <style>
+    body {
+      background-image: url('https://d33wubrfki0l68.cloudfront.net/e0c0e886b333fee2c6ccb18d976c74adfc7d0bc2/dddc1/img/logo.png');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .title {
+      font-size: 4rem;
+      font-weight: bold;
+      text-align: center;
+      animation: enter 1s;
+      color: #f0aa90;
+      text-shadow: 2px 2px #E67E22;
+    }
+    h2 {
+      font-size: 2rem;
+      text-align: center;
+      margin-top: 2rem;
+      color: #CFF09E;
+      text-shadow: 2px 2px #2C3E50;
+    }
+    .btn {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+    .btn a {
+      margin: 0 1rem;
+    }
+    .btn-bottom {
+      margin-top: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .btn-bottom a {
+      margin: 0 1rem;
+    }
+	.doc-btn {
+	  width: 50px;
+	  height: 50px;
+	  background-image: url('https://icons.getbootstrap.com/assets/icons/file-text-fill.svg');
+	  background-size: contain;
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  border-radius: 50%;
+	  transition: transform 0.5s;
+	}
+	.doc-btn:hover {
+	  transform: rotate(360deg);
+	}
+    .github-btn {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://icons.getbootstrap.com/assets/icons/github.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 50%;
+      transition: transform 0.5s;
+    }
+    .github-btn:hover {
+      transform: rotate(360deg);
+    }
+	iframe {
+	            width: 100%;
+	            height: 500px;
+	            border: none;
+	        }
+    @keyframes enter {
+      from {
+        opacity: 0;
+        transform: translateY(-50%);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+	
+  </style>
+</head>
+<body>
+  <h1 class="title">青年开源虚拟大学</h1>
+  <h2>尽情期待</h2>
+  <iframe src="./f.html"></iframe>
+  
+  <div class="btn-bottom">
+    <a href="https://yosvu.eu.org/" class="doc-btn"></a>
+    <a href="https://github.com/YOSVU" class="github-btn"></a>
+  </div>
+</body>
+</html>
